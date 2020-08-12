@@ -1,4 +1,66 @@
-/* #chicken_menu.row{
-    background-color: bisque;
 
-} */
+/* MENU HEADLINE */
+body > h1{
+    padding: 20px 0 20px 0;
+}
+
+/* MENU PAGES */
+
+#chicken_menu, #beef_menu, #sushi_menu{
+    background-color: #41EAD4;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+ /* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  { 
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  { 
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 80%;
+        margin-bottom: 20px;
+    }
+ }
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  { 
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 80%;
+        margin-bottom: 20px;
+    } 
+ }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  {  
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { 
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 98%;
+        margin-bottom: 20px;
+    }
+ }
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+    body > div:nth-child(3), body > div:nth-child(4), body > div:nth-child(5){
+        width: 98%;
+        margin-bottom: 20px;
+    }
+ }
